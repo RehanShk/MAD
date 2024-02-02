@@ -1,15 +1,19 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Ignore build artifacts
+build/
+.gradle/
+
+# Ignore local configuration and cached data
 local.properties
+.idea/
+.android/
+
+# Ignore project outputs
+app/build/
+
+# Ignore IDE-specific settings
+# (you can adjust these based on your preferences)
+.DS_Store
+*.iml
+
+# Ignore generated files (depending on your project setup)
+gen/
